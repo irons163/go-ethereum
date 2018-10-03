@@ -53,3 +53,8 @@ func ToBinary(x int, bytes int) string {
 		return ToBinary(int(x / 256), bytes - 1) + string(x % 256)
 	}
 }
+
+type RlpSerializer interface {
+	MarshalRls() []byte
+	UnmarshalRls([]byte)
+}

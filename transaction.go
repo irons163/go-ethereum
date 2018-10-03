@@ -5,7 +5,6 @@ import (
 	"encoding/hex"
 	"fmt"
 	"math/big"
-	"strconv"
 )
 
 /*
@@ -21,12 +20,16 @@ signature     signature    64 bytes
 */
 
 type Transaction struct {
+	RlpSerializer
+
 	sender string
 	recipient uint32
 	value uint32
 	fee uint32
 	data []string
 	memory []int
+
+	// To be removed
 	signature string
 	addr string
 }
@@ -59,18 +62,14 @@ func NewTransaction(to uint32, value uint32, data []string) *Transaction {
 		tx.data[i] = instr
 	}
 
-	b:= []byte(tx.Serialize())
+	b:= []byte(tx.MarshalRlp())
 	hash := sha256.Sum256(b)
 	tx.addr = hex.EncodeToString(hash[0:19])
 
 	return &tx
 }
 
-func Uitoa(i uint32) string {
-	return strconv.FormatUint(uint64(i), 10)
-}
-
-func (tx *Transaction) Serialize() string {
+func (tx *Transaction) MarshalRlp() []byte {
 	// Prepare the transaction for serialization
 	preEnc := []interface{}{
 		"0", // TODO last Tx
@@ -82,7 +81,7 @@ func (tx *Transaction) Serialize() string {
 		tx.data,
 	}
 
-	return RlpEncode(preEnc)
+	return []byte(RlpEncode(preEnc))
 }
 
 func InitFees() {

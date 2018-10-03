@@ -8,6 +8,10 @@ import (
 func RlpEncode(object interface{}) string {
 	if str, ok := object.(string); ok {
 		return "\x00" + NumToVarInt(len(str)) + str
+	} else if num, ok := object.(uint32); ok {
+		return RlpEncode(Uitoa(num))
+	} else if byt, ok := object.([]byte); ok {
+		return RlpEncode(string(byt))
 	} else if slice, ok := object.([]interface{}); ok {
 		var buffer bytes.Buffer
 		for _, val := range slice {
@@ -55,6 +59,6 @@ func ToBinary(x int, bytes int) string {
 }
 
 type RlpSerializer interface {
-	MarshalRls() []byte
-	UnmarshalRls([]byte)
+	MarshalRlp() []byte
+	UnmarshalRlp([]byte)
 }

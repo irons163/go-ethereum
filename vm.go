@@ -180,5 +180,5 @@ out:
 			fmt.Println("... JMP", nptr, "...")
 		}
 	}
-	fmt.Println("# finished processing Tx\n")
+	//fmt.Println("# finished processing Tx\n")
 }

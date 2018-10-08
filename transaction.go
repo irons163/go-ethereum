@@ -20,7 +20,7 @@ signature     signature    64 bytes
 */
 
 type Transaction struct {
-	RlpSerializer
+	//RlpSerializer
 
 	sender      string
 	recipient   string
@@ -82,7 +82,7 @@ func (tx *Transaction) MarshalRlp() []byte {
 		tx.data,
 	}
 
-	return []byte(Encode(preEnc))
+	return Encode(preEnc)
 }
 
 func (tx *Transaction) UnmarshalRlp(data []byte) {

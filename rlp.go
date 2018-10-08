@@ -41,6 +41,9 @@ func FromBin(data []byte) uint64 {
 }
 
 func Decode(data []byte, pos int) (interface{}, int) {
+  if pos > len(data)-1 {
+    panic(fmt.Sprintf("index out of range %d for data %q, l = %d", pos, data, len(data)))
+  }
 	char := int(data[pos])
 	slice := make([]interface{}, 0)
 	switch {
@@ -72,7 +75,7 @@ func Decode(data []byte, pos int) (interface{}, int) {
 		return slice, pos
 	case char < 192:
 		b := int(data[pos]) - 183
-		//b2 := int(FromBin(data[pos+1 : pos+1+b])) (ref imprementation has an unused variable)
+    //b2 := int(FromBin(data[pos+1 : pos+1+b])) (ref implementation has an unused variable)
 		pos = pos+1+b
 		for i := 0; i < b; i++ {
 			var obj interface{}
@@ -122,7 +125,8 @@ func Encode(object interface{}) []byte {
 
 	case []byte:
 		// Cast the byte slice to a string
-		buff.Write(Encode(string(t)))
+		// 暫時沒用到，先藏起來。
+    	// buff.Write(Encode(string(t)))
 
 	case []interface{}, []string:
 		// Inline function for writing the slice header

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb4a88ac-c654-4443-a1b5-29b0c1837138" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rlp.go" beforeDir="false" afterPath="$PROJECT_DIR$/rlp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rlp_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/rlp_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +12,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/eth_go$serialization_test_go.out" NAME="serialization_test.go Coverage Results" MODIFIED="1538727214748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/eth_go$rlp_test_go.out" NAME="rlp_test.go Coverage Results" MODIFIED="1538727221082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/eth_go$rlp_test_go_rlp_go.out" NAME="rlp_test.go rlp.go Coverage Results" MODIFIED="1538560062470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/eth_go$rlp_test_go.out" NAME="rlp_test.go Coverage Results" MODIFIED="1538982824953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/eth_go$rlp_test_go_rlp_go.out" NAME="rlp_test.go rlp.go Coverage Results" MODIFIED="1538982839788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/eth_go$big_go_block_go_block_manager_go_ethereum_go_parsing_go_rlp_go_rlp_test_go_serialization_go_serialization_test_go_transaction_go_util_go_vm_go.out" NAME="big.go block.go block_manager.go ethereum.go parsing.go rlp.go rlp_test.go serialization.go serialization_test.go transaction.go util.go vm.go Coverage Results" MODIFIED="1538727227236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
@@ -46,12 +45,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="3134" />
+          <entry key="go" value="3136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="3134" />
+          <entry key="Go" value="3136" />
         </counts>
       </usages-collector>
     </session>
@@ -85,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rlp.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="356">
               <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
             </state>
           </provider>
@@ -115,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rlp_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="802">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
@@ -195,12 +194,12 @@
         <option value="$PROJECT_DIR$/util.go" />
         <option value="$PROJECT_DIR$/block.go" />
         <option value="$PROJECT_DIR$/serialization.go" />
-        <option value="$PROJECT_DIR$/rlp_test.go" />
         <option value="$PROJECT_DIR$/vm.go" />
         <option value="$PROJECT_DIR$/transaction.go" />
         <option value="$PROJECT_DIR$/block_manager.go" />
         <option value="$PROJECT_DIR$/ethereum.go" />
         <option value="$PROJECT_DIR$/rlp.go" />
+        <option value="$PROJECT_DIR$/rlp_test.go" />
       </list>
     </option>
   </component>
@@ -271,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build big.go block.go block_manager.go ethereum.go parsing.go rlp.go rlp_test.go serialization.go serialization_test.go transaction.go util.go vm.go">
+  <component name="RunManager" selected="Go Test.rlp_test.go rlp.go">
     <configuration name="go build big.go block.go block_manager.go ethereum.go parsing.go rlp.go rlp_test.go serialization.go serialization_test.go transaction.go util.go vm.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="eth-go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -325,11 +324,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.rlp_test.go rlp.go" />
+        <item itemvalue="Go Test.rlp_test.go" />
         <item itemvalue="Go Build.go build big.go block.go block_manager.go ethereum.go parsing.go rlp.go rlp_test.go serialization.go serialization_test.go transaction.go util.go vm.go" />
         <item itemvalue="Go Test.big.go block.go block_manager.go ethereum.go parsing.go rlp.go rlp_test.go serialization.go serialization_test.go transaction.go util.go vm.go" />
-        <item itemvalue="Go Test.rlp_test.go" />
         <item itemvalue="Go Test.serialization_test.go" />
-        <item itemvalue="Go Test.rlp_test.go rlp.go" />
       </list>
     </recent_temporary>
   </component>
@@ -514,16 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlp_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/block_manager.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -553,8 +542,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rlp.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="356">
           <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlp_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

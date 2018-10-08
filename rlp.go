@@ -45,7 +45,7 @@ func Decode(data []byte, pos int) (interface{}, int) {
 	slice := make([]interface{}, 0)
 	switch {
 	case char < 24:
-		return append(slice, data[pos]), pos + 1
+    	return data[pos], pos + 1
 	case char < 56:
 		b := int(data[pos]) - 23
 		return FromBin(data[pos+1 : pos+1+b]), pos + 1 + b

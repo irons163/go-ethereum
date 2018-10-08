@@ -48,3 +48,10 @@ func TestMultiEncode(t *testing.T) {
 	dec, _ := Decode(bytes, 0)
 	fmt.Println(dec)
 }
+
+func BenchmarkEncodeDecode(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		bytes := Encode([]string{"dog", "god", "cat"})
+		Decode(bytes, 0)
+	}
+}

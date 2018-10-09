@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb4a88ac-c654-4443-a1b5-29b0c1837138" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/encoding.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/encoding_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/big.go" beforeDir="false" afterPath="$PROJECT_DIR$/big.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/block.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/transaction.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,24 +35,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="47" />
+          <entry key="go" value="50" />
           <entry key="s" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="47" />
+          <entry key="Go" value="50" />
           <entry key="x86 Plan9 Assembly" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="3197" />
+          <entry key="go" value="3678" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="3197" />
+          <entry key="Go" value="3678" />
         </counts>
       </usages-collector>
     </session>
@@ -79,46 +78,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vm.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="152" selection-start-line="152" selection-end-line="152" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rlp.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="272">
+              <caret line="148" column="55" selection-start-line="148" selection-start-column="55" selection-end-line="148" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/encoding_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/encoding.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#14#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/testing/testing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="619" column="17" selection-start-line="619" selection-start-column="17" selection-end-line="619" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/transaction.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="89" column="43" lean-forward="true" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/block_manager.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="1332" selection-start-line="1332" selection-end-line="1332" />
+            <state relative-caret-position="141">
+              <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -181,6 +186,7 @@
       <find>stack</find>
       <find>stackSize</find>
       <find>uncles</find>
+      <find>WriteSliceHeader</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11/libexec" />
@@ -202,6 +208,8 @@
         <option value="$PROJECT_DIR$/ethereum.go" />
         <option value="$PROJECT_DIR$/block.go" />
         <option value="$PROJECT_DIR$/transaction.go" />
+        <option value="$PROJECT_DIR$/encoding.go" />
+        <option value="$PROJECT_DIR$/encoding_test.go" />
       </list>
     </option>
   </component>
@@ -212,8 +220,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="299" />
-    <option name="y" value="24" />
+    <option name="x" value="466" />
+    <option name="y" value="156" />
     <option name="width" value="1400" />
     <option name="height" value="975" />
   </component>
@@ -272,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build big.go block.go block_manager.go ethereum.go parsing.go rlp.go rlp_test.go serialization.go serialization_test.go transaction.go util.go vm.go">
+  <component name="RunManager" selected="Go Test.encoding_test.go">
     <configuration name="go build big.go block.go block_manager.go ethereum.go parsing.go rlp.go rlp_test.go serialization.go serialization_test.go transaction.go util.go vm.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="eth-go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -287,6 +295,15 @@
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/ethereum.go" />
       <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="encoding_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="eth-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/encoding_test.go" />
       <method v="2" />
     </configuration>
     <configuration name="gobench rlp.go rlp_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -307,45 +324,24 @@
       <filePath value="$PROJECT_DIR$/rlp_test.go|$PROJECT_DIR$/rlp.go" />
       <method v="2" />
     </configuration>
-    <configuration name="rlp_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="eth-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/rlp_test.go" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Go Test.rlp_test.go" />
       <item itemvalue="Go Test.rlp_test.go rlp.go" />
       <item itemvalue="Go Build.go build big.go block.go block_manager.go ethereum.go parsing.go rlp.go rlp_test.go serialization.go serialization_test.go transaction.go util.go vm.go" />
       <item itemvalue="Go Test.gobench rlp.go rlp_test.go" />
       <item itemvalue="Go Build.go build ethereum.go" />
+      <item itemvalue="Go Test.encoding_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.encoding_test.go" />
         <item itemvalue="Go Build.go build big.go block.go block_manager.go ethereum.go parsing.go rlp.go rlp_test.go serialization.go serialization_test.go transaction.go util.go vm.go" />
         <item itemvalue="Go Build.go build ethereum.go" />
         <item itemvalue="Go Test.rlp_test.go rlp.go" />
         <item itemvalue="Go Test.gobench rlp.go rlp_test.go" />
-        <item itemvalue="Go Test.rlp_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="rlp_test_go_rlp_go - 2018.10.08 at 15h 55m 02s.xml">
-      <configuration name="rlp_test.go rlp.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="rlp_test_go_rlp_go - 2018.10.08 at 15h 55m 10s.xml">
-      <configuration name="rlp_test.go rlp.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="rlp_test_go_rlp_go - 2018.10.08 at 15h 55m 13s.xml">
-      <configuration name="rlp_test.go rlp.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="rlp_test_go_rlp_go - 2018.10.08 at 15h 55m 38s.xml">
-      <configuration name="rlp_test.go rlp.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="rlp_test_go_rlp_go - 2018.10.08 at 15h 56m 11s.xml">
       <configuration name="rlp_test.go rlp.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -364,6 +360,18 @@
     <history-entry file="rlp_test_go_rlp_go - 2018.10.08 at 16h 02m 15s.xml">
       <configuration name="rlp_test.go rlp.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="encoding_test_go - 2018.10.09 at 13h 59m 00s.xml">
+      <configuration name="encoding_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="encoding_test_go - 2018.10.09 at 14h 11m 42s.xml">
+      <configuration name="encoding_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="encoding_test_go - 2018.10.09 at 14h 18m 40s.xml">
+      <configuration name="encoding_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="encoding_test_go - 2018.10.09 at 14h 22m 42s.xml">
+      <configuration name="encoding_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,7 +383,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="299" y="24" width="1400" height="975" extended-state="0" />
+    <frame x="466" y="156" width="1400" height="975" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16715759" />
@@ -517,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="830" selection-start-line="830" selection-end-line="830" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../src/github.com/eth-go/serialization.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -631,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlp.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/big.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -657,8 +651,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/transaction.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="89" column="43" lean-forward="true" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
+        <state relative-caret-position="141">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="148" column="55" selection-start-line="148" selection-start-column="55" selection-end-line="148" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="619" column="17" selection-start-line="619" selection-start-column="17" selection-end-line="619" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/encoding.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/encoding_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

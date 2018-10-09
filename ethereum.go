@@ -32,7 +32,7 @@ func main(){
 
 	tx2 := NewTransaction("\x00", 20, []string{"SET 10 6", "LD 10 10"})
 
-	blck := NewBlock([]*Transaction{tx2, tx})
+	blck := CreateBlock([]*Transaction{tx2, tx})
 
 	bm.ProcessBlock(blck)
 

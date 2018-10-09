@@ -1,4 +1,4 @@
-# Myeth-go
+# go-ethereum
 
 源碼分析：
-https://github.com/irons163/go-ethereum-website/tree/gh-pages
+https://irons163.github.io/go-ethereum-website/

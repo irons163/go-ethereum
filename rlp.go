@@ -125,8 +125,7 @@ func Encode(object interface{}) []byte {
 
 	case []byte:
 		// Cast the byte slice to a string
-		// 暫時沒用到，先藏起來。
-    	// buff.Write(Encode(string(t)))
+    	buff.Write(Encode(string(t)))
 
 	case []interface{}, []string:
 		// Inline function for writing the slice header

@@ -2,29 +2,9 @@ package main
 
 import "testing"
 
-type database struct {
-
-}
-
-func newDB() database {
-	return database{}
-}
-
-func (db *database) close() {
-
-}
-
-func (db *database) Put(node []byte) string {
-	return ""
-}
-
-func (db *database) Get(key string) []byte {
-	return []byte{}
-}
-
 func TestDBPut(t *testing.T) {
-	db := newDB();
-	defer db.close()
+	db := NewDatabase()
+	defer db.Close()
 
 	key := db.Put([]byte("testing node"))
 

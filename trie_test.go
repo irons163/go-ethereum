@@ -21,3 +21,19 @@ func TestTriePut(t *testing.T) {
 		t.Error("Invalid return type")
 	}
 }
+
+func TestTrieUpdate(t *testing.T) {
+	db := NewMemDatabase()
+	trie := NewTrie(db)
+
+	trie.PutSatae([]byte("dog"), "puppy")
+	//trie.PutSatae([]byte("dogglesworth"), "cat")
+	v := trie.GetSatae([]byte("dog"))
+	if string(v) != "puppy" {
+		t.Error("trie PutSatae GetSatae fail")
+	}
+
+	data := trie.Get([]byte(trie.root))
+	PrintSlice(DecodeNode(data))
+
+}

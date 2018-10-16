@@ -21,3 +21,16 @@ func Sha256Bin(data []byte) []byte {
 
 	return hash[:]
 }
+
+// Helper function for comparing slices
+func CompareIntSlice(a, b []int) bool {
+	if len(a) != len(b) {
+		return false
+	}
+	for i, v := range a {
+		if v != b[i] {
+			return false
+		}
+	}
+	return true
+}

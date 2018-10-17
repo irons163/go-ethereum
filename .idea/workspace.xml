@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb4a88ac-c654-4443-a1b5-29b0c1837138" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encoding.go" beforeDir="false" afterPath="$PROJECT_DIR$/encoding.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encoding_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/encoding_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trie_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/util.go" afterDir="false" />
@@ -31,60 +29,46 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="84" />
-          <entry key="s" value="5" />
+          <entry key="go" value="91" />
+          <entry key="s" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="84" />
-          <entry key="x86 Plan9 Assembly" value="5" />
+          <entry key="Go" value="91" />
+          <entry key="x86 Plan9 Assembly" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="4653" />
+          <entry key="go" value="6027" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="4653" />
+          <entry key="Go" value="6027" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="eth-go" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rlp.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="680" selection-start-line="680" selection-end-line="680" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/util.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="237">
+              <caret line="37" selection-start-line="37" selection-end-line="47" selection-end-column="1" />
               <folding>
                 <element signature="e#14#68#0" expanded="true" />
               </folding>
@@ -93,31 +77,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trie_test.go">
+        <entry file="file://$PROJECT_DIR$/transaction.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#14#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1156">
+              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s">
+        <entry file="file://$PROJECT_DIR$/trie_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="1332" selection-start-line="1332" selection-end-line="1332" />
+            <state relative-caret-position="227">
+              <caret line="24" selection-start-line="24" selection-end-line="36" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trie.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-551">
-              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            <state relative-caret-position="164">
+              <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rlp.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11492">
+              <caret line="680" selection-start-line="680" selection-end-line="680" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rlp_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,8 +136,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/testing/testing.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="13770">
               <caret line="826" selection-start-line="826" selection-end-line="826" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22644">
+              <caret line="1332" selection-start-line="1332" selection-end-line="1332" />
             </state>
           </provider>
         </entry>
@@ -134,32 +154,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/encoding.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="62">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding>
                 <element signature="e#14#60#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/encoding_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/encoding/hex/hex.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
         </entry>
@@ -175,14 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RunTransaction</find>
-      <find>MarshalRlp</find>
-      <find>difficulty</find>
-      <find>stack</find>
-      <find>stackSize</find>
-      <find>WriteSliceHeader</find>
-      <find>uncles</find>
-      <find>GenisisBlock</find>
       <find>UnmarshalRlp</find>
       <find>RlpEncode</find>
       <find>NumToVarInt</find>
@@ -197,14 +188,22 @@
       <find>Get</find>
       <find>Put(</find>
       <find>GetState</find>
-      <find>CompactDecode</find>
       <find>Get(</find>
       <find>InsertState</find>
-      <find>Decode</find>
-      <find>CompareIntSlice</find>
-      <find>Put</find>
       <find>CompactHexDecode</find>
+      <find>MatchingNibble</find>
+      <find>Decode</find>
+      <find>CompactDecode</find>
+      <find>CompactENc</find>
+      <find>hex.Decode</find>
       <find>CompactEncode</find>
+      <find>hex.Encode</find>
+      <find>dst</find>
+      <find>CompareIntSlice</find>
+      <find>CompactHexEncode</find>
+      <find>decode(</find>
+      <find>for</find>
+      <find>Put</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11/libexec" />
@@ -227,11 +226,11 @@
         <option value="$PROJECT_DIR$/database_test.go" />
         <option value="$PROJECT_DIR$/rlp.go" />
         <option value="$PROJECT_DIR$/database.go" />
-        <option value="$PROJECT_DIR$/util.go" />
-        <option value="$PROJECT_DIR$/encoding.go" />
         <option value="$PROJECT_DIR$/encoding_test.go" />
-        <option value="$PROJECT_DIR$/trie_test.go" />
         <option value="$PROJECT_DIR$/trie.go" />
+        <option value="$PROJECT_DIR$/encoding.go" />
+        <option value="$PROJECT_DIR$/trie_test.go" />
+        <option value="$PROJECT_DIR$/util.go" />
       </list>
     </option>
   </component>
@@ -242,9 +241,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
+    <option name="x" value="215" />
     <option name="y" value="23" />
-    <option name="width" value="1361" />
+    <option name="width" value="1568" />
     <option name="height" value="923" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -253,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,6 +285,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,34 +372,34 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 03m 42s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 08m 25s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 06m 48s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 08m 28s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 20m 38s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 08m 37s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 26m 16s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 11m 10s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 42m 21s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 12m 33s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 42m 28s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 12m 43s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 42m 32s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 13m 05s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 42m 41s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 13m 32s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 42m 53s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 14m 11s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.16 at 15h 43m 04s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 16h 10m 18s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -414,23 +413,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="23" width="1361" height="923" extended-state="0" />
+    <frame x="215" y="23" width="1568" height="923" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17210008" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814814" visible="true" weight="0.15072083" />
+      <window_info id="Structure" order="1" sideWeight="0.50185186" side_tool="true" weight="0.17437452" />
+      <window_info id="Favorites" order="2" sideWeight="0.50185186" side_tool="true" visible="true" weight="0.15072083" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.570887" visible="true" weight="0.3501805" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6436694" weight="0.3501805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5484928" visible="true" weight="0.3501805" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6216831" weight="0.38868833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4996209" weight="0.32972324" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49886277" weight="0.32972324" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32851985" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.42911297" side_tool="true" visible="true" weight="0.3501805" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49886277" weight="0.32851985" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4515072" side_tool="true" visible="true" weight="0.3501805" />
       <window_info anchor="right" x="0" y="0" width="300" height="777" id="Documentation" order="0" sideWeight="0.5025295" side_tool="true" weight="0.2496318" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -451,170 +450,127 @@
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/rlp_test.go</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/rlp_test.go</url>
           <line>48</line>
-          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/block.go</url>
           <line>137</line>
-          <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/database_test.go</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/database_test.go</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/database.go</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/database_test.go</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/database_test.go</url>
           <line>18</line>
-          <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/trie.go</url>
-          <line>132</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/trie_test.go</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/trie.go</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/trie.go</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/trie.go</url>
-          <line>102</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/trie.go</url>
-          <line>101</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/trie_test.go</url>
-          <line>36</line>
-          <properties />
+          <line>35</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/trie.go</url>
           <line>68</line>
-          <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/trie.go</url>
           <line>79</line>
-          <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/trie.go</url>
-          <line>92</line>
-          <properties />
+          <line>96</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/encoding.go</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/trie.go</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/trie.go</url>
-          <line>141</line>
-          <properties />
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/trie.go</url>
-          <line>144</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/encoding.go</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/encoding_test.go</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/encoding_test.go</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/trie_test.go</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="86" />
+          <url>file://$PROJECT_DIR$/trie.go</url>
+          <line>85</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/trie.go</url>
-          <line>131</line>
-          <properties />
-          <option name="timeStamp" value="87" />
+          <line>90</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/trie_test.go</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="88" />
+          <url>file://$PROJECT_DIR$/trie.go</url>
+          <line>153</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/trie.go</url>
+          <line>140</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/trie.go</url>
+          <line>126</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/trie.go</url>
+          <line>129</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/trie.go</url>
+          <line>82</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file:///usr/local/Cellar/go/1.11/libexec/src/encoding/hex/hex.go</url>
+          <line>58</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -658,16 +614,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serialization_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/serialization_test.go" />
     <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/strconv/itoa.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -717,16 +664,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serialization.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/serialization.go" />
     <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/map_faststr.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -748,24 +686,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/strings/strings_decl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/block.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transaction.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -783,29 +707,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding>
             <element signature="e#14#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rlp_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -817,85 +724,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rlp.go">
+    <entry file="file://$PROJECT_DIR$/database_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="1332" selection-start-line="1332" selection-end-line="1332" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="826" selection-start-line="826" selection-end-line="826" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="680" selection-start-line="680" selection-end-line="680" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/encoding/hex/hex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/encoding_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="77">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util.go">
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/strings/strings_decl.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/encoding/hex/hex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11492">
+          <caret line="680" selection-start-line="680" selection-end-line="680" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlp_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
           <folding>
-            <element signature="e#14#68#0" expanded="true" />
+            <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trie_test.go">
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/testing/testing.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="13770">
+          <caret line="826" selection-start-line="826" selection-end-line="826" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22644">
+          <caret line="1332" selection-start-line="1332" selection-end-line="1332" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/encoding.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="62">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
             <element signature="e#14#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rlp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="24" selection-start-line="24" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trie.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="164">
+          <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="37" selection-start-line="37" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

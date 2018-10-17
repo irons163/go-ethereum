@@ -83,9 +83,13 @@ func (t *Trie) GetState(node string, key []int) string {
 		k := CompactDecode(currentNode[0])
 		v := currentNode[1]
 
-		if len(key) == len(k) && CompareIntSlice(k, key[:len(k)]) {
-			return v
+		if len(key) >= len(k) && CompareIntSlice(k, key[:len(k)]) { // 如果 Prefix-Hex相同，遞歸剩下的hex數組。
+			return t.GetState(v, key[len(k):])
+		} else {
+			return ""
 		}
+	} else if len(currentNode) == 17 {
+		return t.GetState(currentNode[key[0]], key[1:])
 	}
 
 	// It shouldn't come this far
@@ -115,21 +119,60 @@ func (t *Trie) InsertState(node string, key []int, value string) string {
 	if len(currentNode) == 2 {
 		// Decode the key
 		k := CompactDecode(currentNode[0])
-		//v := currentNode[1]
+		v := currentNode[1]
 
 		// Matching key pair (ie. there's already an object with this key)
 		// 如果key已經存在，更新value。
 		if CompareIntSlice(k, key) {
 			return string(t.Put([]string{ CompactEncode(key), value }))
 		}
+
+		matchingLength, newHash := t.MatchingNibble(key, value, k, v)
+
+		if matchingLength == 0 {
+			// End of the chain, return
+			return newHash
+		} else {
+			newNode := []string{ CompactEncode(key[:matchingLength]), newHash }
+			return string(t.Put(newNode))
+		}
+	} else {
+		// Copy the current node over to the new node and replace the first nibble in the key
+		newNode := make([]string, 17); copy(newNode, currentNode)
+		newNode[key[0]] = t.InsertState(currentNode[key[0]], key[1:], value)
+
+		return string(t.Put(newNode))
 	}
 
 	fmt.Println("Key is not exist.")
 	return ""
 }
 
+func (t *Trie) MatchingNibble(key []int, value string, k []int, v string) (int, string) {
+	var newHash string
+	matchingLength := MatchingNibbleLength(key, k)
+	if matchingLength == len(k) {
+		// Insert the hash, creating a new node
+		newHash = t.InsertState(v, key[matchingLength:], value)
+	} else {
+		// Expand the 2 length slice to a 17 length slice
+		oldNode := t.InsertState("", k[matchingLength+1:], v)
+		newNode := t.InsertState("", key[matchingLength+1:], value)
+		// Create an expanded slice
+		scaledSlice := make([]string, 17)
+		// Set the copied and new node
+		scaledSlice[k[matchingLength]] = oldNode
+		scaledSlice[key[matchingLength]] = newNode
+
+		newHash = string(t.Put(scaledSlice))
+	}
+
+	return matchingLength, newHash
+}
+
 func DecodeNode(data []byte) []string {
 	dec, _ := Decode(data, 0)
+
 	if slice, ok := dec.([]interface{}); ok {
 		strSlice := make([]string, len(slice))
 
@@ -138,18 +181,48 @@ func DecodeNode(data []byte) []string {
 				strSlice[i] = string(str)
 			}
 		}
-
 		return strSlice
+
 	}
 
 	return nil
 }
 
-func PrintSlice(slice []string) {
+func PrintSliceReal(slice []string) {
 	fmt.Printf("[")
 	for i, val := range slice {
 		fmt.Printf("%q", val)
 		if i != len(slice)-1 { fmt.Printf(",") }
 	}
 	fmt.Printf("]\n")
+}
+
+func PrintSlice(slice []string) {
+	fmt.Printf("[")
+	for i, val := range slice {
+		if i == 0 {
+			var valStr string
+			for i, v := range val {
+				if i == 0 {
+					if v == ' ' || v == 0 {
+						continue
+					}
+
+					index := v - '0'
+					s := toCharStr(int(index))
+					valStr += s
+				} else {
+					valStr += string(v)
+				}
+			}
+			val = valStr
+		}
+		fmt.Printf("%q", val)
+		if i != len(slice)-1 { fmt.Printf(",") }
+	}
+	fmt.Printf("]\n")
+}
+
+func toCharStr(i int) string {
+	return string('a' - 1 + i)
 }

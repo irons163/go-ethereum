@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb4a88ac-c654-4443-a1b5-29b0c1837138" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trie_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/util.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +46,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="6027" />
+          <entry key="go" value="6040" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="6027" />
+          <entry key="Go" value="6040" />
         </counts>
       </usages-collector>
     </session>
@@ -64,7 +61,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="237">
@@ -85,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trie_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="24" selection-start-line="24" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="325">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -229,8 +226,8 @@
         <option value="$PROJECT_DIR$/encoding_test.go" />
         <option value="$PROJECT_DIR$/trie.go" />
         <option value="$PROJECT_DIR$/encoding.go" />
-        <option value="$PROJECT_DIR$/trie_test.go" />
         <option value="$PROJECT_DIR$/util.go" />
+        <option value="$PROJECT_DIR$/trie_test.go" />
       </list>
     </option>
   </component>
@@ -241,8 +238,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="215" />
-    <option name="y" value="23" />
+    <option name="x" value="156" />
+    <option name="y" value="85" />
     <option name="width" value="1568" />
     <option name="height" value="923" />
   </component>
@@ -372,34 +369,34 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 08m 25s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 47m 25s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 08m 28s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 47m 29s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 08m 37s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 47m 40s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 11m 10s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 47m 47s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 12m 33s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 47m 52s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 12m 43s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 47m 55s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 13m 05s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 48m 06s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 13m 32s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 48m 11s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 14h 14m 11s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 48m 18s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 16h 10m 18s.xml">
+    <history-entry file="trie_test_go_encoding_go_trie_go_rlp_go_util_go - 2018.10.17 at 17h 48m 38s.xml">
       <configuration name="trie_test.go encoding.go trie.go rlp.go util.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -413,12 +410,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="215" y="23" width="1568" height="923" extended-state="0" />
+    <frame x="156" y="85" width="1568" height="923" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814814" visible="true" weight="0.15072083" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49814814" visible="true" weight="0.15072083" />
       <window_info id="Structure" order="1" sideWeight="0.50185186" side_tool="true" weight="0.17437452" />
-      <window_info id="Favorites" order="2" sideWeight="0.50185186" side_tool="true" visible="true" weight="0.15072083" />
+      <window_info active="true" id="Favorites" order="2" sideWeight="0.50185186" side_tool="true" visible="true" weight="0.15072083" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5484928" visible="true" weight="0.3501805" />
@@ -499,7 +496,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/trie_test.go</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
@@ -810,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trie_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="24" selection-start-line="24" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trie.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -831,6 +821,13 @@
           <folding>
             <element signature="e#14#68#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>

@@ -2,6 +2,8 @@ package main
 
 import (
 	"encoding/hex"
+	"encoding/json"
+	"fmt"
 	"testing"
 )
 
@@ -18,17 +20,27 @@ type TestSource struct {
 	Expectation string
 }
 
+func NewTestSource(source string) *TestSource {
+	s := &TestSource{}
+	err := json.Unmarshal([]byte(source), s)
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	return s
+}
+
 type TestRunner struct {
 	source *TestSource
 }
 
 func NewTestRunner() TestRunner {
 	testRunner := TestRunner{}
-	testRunner.source = &TestSource{map[string]string{"A":"B"}, ""}
 	return testRunner
 }
 
 func (t *TestRunner) RunFromString(source string, putToTrie func(*TestSource)) {
+	t.source = NewTestSource(source)
 	putToTrie(t.source)
 }
 
